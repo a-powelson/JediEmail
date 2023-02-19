@@ -1,0 +1,177 @@
+/*
+ * main.css
+ * Main style sheet for JediMail website
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80vw;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: #0984e3;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 1em;
+}
+header > h1 {
+    margin: 0;
+    padding: 0;
+}
+h1 > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+h1 > a:hover,
+h1 > a:active {
+    color: yellow;
+}
+
+nav {
+    min-height: 2em;
+    line-height: 30px;
+    padding: 1em;
+    background-color: #2d3436;
+    color: white;
+    font-weight: bold;
+}
+nav > a {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 2em;
+}
+nav > a:link,
+nav > a:visited {
+    color: white;
+}
+nav > a:hover,
+nav > a:active {
+    color: yellow;
+}
+
+main {
+    min-height: 45vh;
+    min-width: 500px;
+    margin: 3em auto;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    color: #0984e3;
+}
+
+#border {
+    border-bottom-style: solid;
+    border-color: #636e72;
+    border-width: 2px;
+    margin: auto auto 1em auto;
+    max-width: 95%;
+}
+
+#headings {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: start;
+    padding-left: 2em;
+}
+
+/* Styles for both the login and compose email forms */
+#loginForm, #composeEmailForm {
+    margin-top: 2em;
+}
+#badUsrOrPassMsg {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+#loginUserInputs, #composeEmailInputs {
+    display: grid;
+    grid-template-columns: 19% 46%;
+    justify-content: center;
+    text-align: start;
+}
+#loginUserInputs > label,
+#composeEmailInputs > label {
+    color: #636e72;
+}
+#loginUserInputs > input,
+#composeEmailInputs > input {
+    margin-bottom: 2em;
+    border-radius: 4px;
+    border-color: #b2bec3;
+}
+#loginFormButtons {
+    display: grid;
+    grid-template-columns: 33% 33%;
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 4em;
+    gap: 5px;
+}
+#composeEmailButtons {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    text-align: start;
+    margin: auto auto 4em auto;
+    gap: 5px;
+    max-width: 66%;
+}
+#loginButton, #loginClearButton,
+#sendButton, #saveButton, #composeClearButton {
+    background-color: #0984e3;
+    color: white;
+    border-style: none;
+    height: 4em;
+}
+#loginClearButton, #composeClearButton {
+    background-color: red;
+}
+#saveButton {
+    background-color: #6c5ce7;
+}
+#emailBodyBox {
+    min-height: 9em;
+    border-color: #b2bec3;
+    border-radius: 4px;
+    margin-bottom: 2em;
+}
+
+#mailList {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: start;
+    padding-left: 2em;
+    margin-bottom: 4em;
+}
+
+div > p {
+    color: #636e72;
+    margin: 0 auto 2em auto;
+}
+
+#emailView {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2em;
+}
+#emailView > p {
+    color: #636e72;
+    margin-bottom: 1em;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    height: 3em;
+    padding: 1em;
+}
