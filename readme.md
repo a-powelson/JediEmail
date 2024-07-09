@@ -5,8 +5,10 @@ Based on template by Raghav Sampangi
 
 ## Description
 This is a simple email website. The styling is done through my own CSS,except for normalize.css which is cited at the bottom of this page. \
-The viewport sizing is reflective of the template we were matching for the assignment. All functionality is done through PHP, with one feature\
-(live email count) done with a combination of JavaScript and PHP.
+The viewport sizing is reflective of the template we were matching for the assignment. All functionality is done through PHP, with one feature (live email count) done with a combination of JavaScript and PHP.
+
+## Access
+If interested, contact z9scum086@mozmail.com for login credentials.
 
 ## ChangeLog
 1. set up header & footer files, added main.css & styles, and created file structure as specified in assignment requirements
