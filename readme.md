@@ -4,10 +4,12 @@ By Ava Powelson\
 Based on template by Raghav Sampangi
 
 ## Description
-This is a simple email website. The styling is done through my own CSS,except for normalize.css which is cited at the bottom of this page. \
-The viewport sizing is reflective of the template we were matching for the assignment. All functionality is done through PHP, with one feature (live email count) done with a combination of JavaScript and PHP.
+This is a website for storing and sending emails. The styling is done through my own CSS, except for normalize.css which is cited at the bottom of this page. \
+The viewport sizing and style is reflective of the template we were matching for the assignment. \
+All functionality is done through PHP, with one feature (live email count) done with a combination of JavaScript and PHP.
 
 ## Access
+Hosted at https://web.cs.dal.ca/~powelson/JediEmail/ \
 If interested, contact z9scum086@mozmail.com for login credentials.
 
 ## ChangeLog
